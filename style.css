@@ -1,0 +1,62 @@
+.box{
+    width: 300px;
+    box-shadow: 3px 3px 30px #e4c5c5;
+}
+.box .offer span{
+    background-color: #6e2594;
+    color: #fff;
+    display: inline-block;
+    padding: 3px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.box .images{
+    text-align: center;
+}
+.box .contains{
+    padding: 10px;
+}
+.box .contains h4 a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.box .contains h4 a:hover{
+    color: rgb(53, 147, 224);
+}
+.box .price{
+    text-align: center;
+    padding: 10px;
+}
+.box .price .btn1{
+    color: orange;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.box .price .btn2{
+    text-decoration: line-through;
+}
+.box button{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.box .shop{
+    margin-bottom: 10px;
+    color: blue;
+    cursor: pointer;
+}
+.box .shop:hover{
+    background-color: rgb(14, 14, 173);
+    color: white;
+   
+}
+.box .shop2{
+    cursor: pointer;
+}
